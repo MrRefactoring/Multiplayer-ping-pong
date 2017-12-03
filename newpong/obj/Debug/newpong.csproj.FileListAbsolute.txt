@@ -1,0 +1,15 @@
+C:\Users\Vlad\source\repos\newpong\newpong\bin\Debug\newpong.exe.config
+C:\Users\Vlad\source\repos\newpong\newpong\bin\Debug\newpong.exe
+C:\Users\Vlad\source\repos\newpong\newpong\bin\Debug\newpong.pdb
+C:\Users\Vlad\source\repos\newpong\newpong\obj\Debug\MainWindow.g.cs
+C:\Users\Vlad\source\repos\newpong\newpong\obj\Debug\App.g.cs
+C:\Users\Vlad\source\repos\newpong\newpong\obj\Debug\newpong_MarkupCompile.cache
+C:\Users\Vlad\source\repos\newpong\newpong\obj\Debug\newpong_MarkupCompile.lref
+C:\Users\Vlad\source\repos\newpong\newpong\obj\Debug\MainWindow.baml
+C:\Users\Vlad\source\repos\newpong\newpong\obj\Debug\newpong.g.resources
+C:\Users\Vlad\source\repos\newpong\newpong\obj\Debug\newpong.Properties.Resources.resources
+C:\Users\Vlad\source\repos\newpong\newpong\obj\Debug\newpong.csproj.GenerateResource.Cache
+C:\Users\Vlad\source\repos\newpong\newpong\obj\Debug\newpong.csproj.CoreCompileInputs.cache
+C:\Users\Vlad\source\repos\newpong\newpong\obj\Debug\newpong.exe
+C:\Users\Vlad\source\repos\newpong\newpong\obj\Debug\newpong.pdb
+C:\Users\Vlad\source\repos\newpong\newpong\obj\Debug\newpong.csprojResolveAssemblyReference.cache

@@ -1,0 +1,15 @@
+﻿<Window x:Class="newpong.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:newpong"
+        mc:Ignorable="d"
+        Title="Pong" Height="350" Width="525" ResizeMode="NoResize">
+    <Grid Background="#FF2D2D30">
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Stroke="Black" VerticalAlignment="Top" Width="100" Name="player" Canvas.Top="293" Margin="10,0,0,0"/>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="100" Stroke="Black" VerticalAlignment="Top" Width="24" Name="enemy" Margin="115,0,0,0"/>
+        <Rectangle Fill="#FF535353" HorizontalAlignment="Left" Height="100" Stroke="Black" VerticalAlignment="Top" Width="100" Name="ball" RadiusY="49.5" RadiusX="49.5"/>
+
+    </Grid>
+</Window>

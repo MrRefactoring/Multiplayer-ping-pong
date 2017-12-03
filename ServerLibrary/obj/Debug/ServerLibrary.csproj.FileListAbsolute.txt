@@ -1,0 +1,6 @@
+C:\Users\Vlad\source\repos\newpong\ServerLibrary\bin\Debug\ServerLibrary.dll
+C:\Users\Vlad\source\repos\newpong\ServerLibrary\bin\Debug\ServerLibrary.pdb
+C:\Users\Vlad\source\repos\newpong\ServerLibrary\obj\Debug\ServerLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Vlad\source\repos\newpong\ServerLibrary\obj\Debug\ServerLibrary.dll
+C:\Users\Vlad\source\repos\newpong\ServerLibrary\obj\Debug\ServerLibrary.pdb
+C:\Users\Vlad\source\repos\newpong\ServerLibrary\obj\Debug\ServerLibrary.csprojResolveAssemblyReference.cache
