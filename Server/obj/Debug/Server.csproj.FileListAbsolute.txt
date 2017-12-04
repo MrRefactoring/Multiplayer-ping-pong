@@ -1,9 +1,0 @@
-C:\Users\Vlad\source\repos\newpong\Server\bin\Debug\Server.exe.config
-C:\Users\Vlad\source\repos\newpong\Server\bin\Debug\Server.exe
-C:\Users\Vlad\source\repos\newpong\Server\bin\Debug\Server.pdb
-C:\Users\Vlad\source\repos\newpong\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
-C:\Users\Vlad\source\repos\newpong\Server\obj\Debug\Server.exe
-C:\Users\Vlad\source\repos\newpong\Server\obj\Debug\Server.pdb
-C:\Users\Vlad\source\repos\newpong\Server\bin\Debug\ServerLibrary.dll
-C:\Users\Vlad\source\repos\newpong\Server\bin\Debug\ServerLibrary.pdb
-C:\Users\Vlad\source\repos\newpong\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache

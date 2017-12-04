@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2A91B4BB-C1E9-4381-BB68-53E1C25DB312}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{3D011B43-D036-4D2A-9012-84AB49BC4BF3}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Server</RootNamespace>
-    <AssemblyName>Server</AssemblyName>
+    <RootNamespace>ServerHandler</RootNamespace>
+    <AssemblyName>ServerHandler</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,22 +41,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="API\Config.cs" />
-    <Compile Include="API\GameManager.cs" />
-    <Compile Include="Server.cs" />
+    <Compile Include="API\Player.cs" />
+    <Compile Include="API\ServerAPI.cs" />
+    <Compile Include="Exceptions\ConnectionException.cs" />
+    <Compile Include="Exceptions\ServerNotBindedException.cs" />
+    <Compile Include="Interfaces\IPlayer.cs" />
+    <Compile Include="Listener.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ServerHandler\ServerHandler.csproj">
-      <Project>{3d011b43-d036-4d2a-9012-84ab49bc4bf3}</Project>
-      <Name>ServerHandler</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="config.json" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
