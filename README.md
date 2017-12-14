@@ -1,7 +1,7 @@
 # Ping pong
 Ping pong. The project is written for lab work on programming applications in C # using windows wpf
 # How run
-##### The first way (using visual studio):
+##### The first way (using Visual Studio):
 1) Clone repository to projects directory
 2) Open the `PingPong.sln` in Visual Studio 2017 (or later)
 3) Choose `Build` , after `Build` or `Build Solution`
