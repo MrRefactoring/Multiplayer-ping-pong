@@ -84,7 +84,16 @@ namespace Lib.API
 
         private void load()
         {
-            configuration = File.ReadAllLines("./config.txt");
+            if (File.Exists("./config.txt"))
+            {
+                configuration = File.ReadAllLines("./config.txt");
+            } else
+            {
+                File.WriteAllLines("./config.txt", new string[] {
+                    "90", "4", "2", "-5, -4, 4, 5" // Стандартный конфиг
+                });
+                load();
+            }
         }
 
     }

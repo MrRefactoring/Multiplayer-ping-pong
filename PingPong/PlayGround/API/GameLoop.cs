@@ -27,6 +27,7 @@ namespace PingPong.PlayGround.API
         {
             if (!running)  // Если игровой цикл не запущен
             {
+                running = true;
                 logic = new Logic(config);
                 gameThread = new Thread(() => {
                     Dispatcher.Invoke(() => {
@@ -34,7 +35,7 @@ namespace PingPong.PlayGround.API
                     });
                     Thread.Sleep(500);  // Ждем 500 милисекунд для того, чтобы передать управление после анимации
                     long lastUpdate = DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond;
-                    while (true)
+                    while (running)
                     {
                         if (DateTime.Now.Ticks / TimeSpan.TicksPerMillisecond - lastUpdate
                         >= 1000 / config.fps && config.canUpdate)
@@ -47,22 +48,17 @@ namespace PingPong.PlayGround.API
                     }
                 });
                 gameThread.Start();  // Запускаем игровой цикл
-                running = true;
             }
         }
 
         public void stop()
         {
+            Console.WriteLine("Try stop");
+            Console.WriteLine(running);
             if (running)  // Если игровой цикл запущен
             {
-                try
-                {
-                    gameThread.Abort();  // Убиваем игровой цикл
-                } catch (ThreadAbortException e)
-                {
-                    Application.Current.Shutdown();  // Принудительно закрываем приложение
-                }
-                running = false;
+                running = false;  // Завершаем работу game loop
+                Application.Current.Shutdown();  // Завершаем работу приложения
             }
         }
 
